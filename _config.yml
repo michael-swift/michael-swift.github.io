@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Michael Swift"
 title_separator          : "-"
 name                     : &name "Michael Swift"
-description              : &description "PhD Student at Stanford University"
+description              : &description "PhD Student at Stanford"
 url                      : https://michael-swift.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "michael-swift.github.io"
@@ -213,14 +213,14 @@ defaults:
       share: true
       comments: true
   # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  #- scope:
+  #    path: ""
+  #    type: publications
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    share: true
+  #    comments: true
   # _portfolio
   - scope:
       path: ""
