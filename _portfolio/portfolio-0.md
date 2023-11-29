@@ -7,4 +7,3 @@ Our findings reveal that long-term antibody memory doesn't follow a temporal swi
 Another significant discovery was the insight that proliferative antibody-secreting cells are licensed to circulate amongst all tissues we sampled. These cells, unlike other B cell types, travel across different tissues and may be key in inter-tissue immune communication, suggesting a new understanding of antibody development across the body. \n <br/><img src='/images/tabula_bursa_fig1.png'>" 
 collection: portfolio
 ---
-DOI: 10.1126/science.abl4896
