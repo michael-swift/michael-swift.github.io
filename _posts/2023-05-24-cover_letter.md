@@ -1,5 +1,6 @@
 ---
 title: Latex Cover Letter
+disable_link: true
 date: 2023-11-20
 permalink: /posts/2023/10/cover_letter
 excerpt_separator: <!--more-->
