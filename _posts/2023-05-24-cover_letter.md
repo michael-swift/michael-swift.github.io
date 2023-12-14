@@ -19,4 +19,8 @@ I'm writing a cover letter for my final paper from my PhD. I couldn't find a lat
 
 Here's a link to the repository:
 
-[https://github.com/michael-swift/JournalCoverLetter](https://github.com/michael-swift/JournalCoverLetter)
+[github repo](https://github.com/michael-swift/JournalCoverLetter)
+
+<!--more-->
+
+The template is also accepted as an Overleaf template which you can find [here](https://www.overleaf.com/latex/templates/journal-submission-cover-letter/vsvmwwszmdtn)
