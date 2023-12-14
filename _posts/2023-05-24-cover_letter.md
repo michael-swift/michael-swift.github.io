@@ -15,12 +15,4 @@ tags:
 
 ![png](/images/posts/latex/manuscript_submission_cover_letter_overleaf.png)
 
-I'm writing a cover letter for my final paper from my PhD. I couldn't find a latex template so I made one myself. I hope it can be useful to others.
-
-Here's a link to the repository:
-
-[github repo](https://github.com/michael-swift/JournalCoverLetter)
-
-<!--more-->
-
-The template is also accepted as an Overleaf template which you can find [here](https://www.overleaf.com/latex/templates/journal-submission-cover-letter/vsvmwwszmdtn)
+I'm writing a cover letter for my final paper from my PhD. I couldn't find a latex template so I made one myself. I hope it can be useful to others. I've shared the work on my [github](https://github.com/michael-swift/JournalCoverLetter) and as an [Overleaf template](https://www.overleaf.com/latex/templates/journal-submission-cover-letter/vsvmwwszmdtn).
