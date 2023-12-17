@@ -3,13 +3,16 @@
 
 <svg
    width="405mm"
-   height="297mm"
-   viewBox="0 0 405 297"
+   height="99mm"
+   viewBox="0 0 405 99"
    version="1.1"
    id="svg326"
    xml:space="preserve"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="tabula_bursa_schematic.svg"
+   inkscape:export-filename="tabula_bursa_schematic.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.4204826"
-     inkscape:cx="380.51515"
-     inkscape:cy="275.87348"
+     inkscape:zoom="1.1893044"
+     inkscape:cx="282.9385"
+     inkscape:cy="275.79146"
      inkscape:window-width="1920"
      inkscape:window-height="939"
      inkscape:window-x="0"
@@ -2275,4 +2278,10 @@ cF9EREREREREREREpJhRcF9EREREREREREREpJj5P+6gp1xZ+f+iAAAAAElFTkSuQmCC
        width="32.939941"
        height="12.629162"
        x="10.641729"
-       y="2.5644567" /></g></svg>
+       y="2.5644567" /><rect
+       style="fill:#ffffff;stroke-width:0.01;stroke-opacity:0.846008"
+       id="rect545"
+       width="6.6578569"
+       height="4.1336675"
+       x="22.441435"
+       y="96.615311" /></g></svg>
