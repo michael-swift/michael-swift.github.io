@@ -10,7 +10,7 @@ header:
  og_image: "/images/posts/latex/fake_university_seal.png"
 tags:
   - scientific publishing
-  - colver letter
+  - cover letter
   - latex
 ---
 
