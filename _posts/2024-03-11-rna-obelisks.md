@@ -1,16 +1,14 @@
 ---
 title: RNA Obelisks
 disable_link: false
-date: 2023-11-20
-permalink: /posts/2023/10/obelisks
+date: 2023-3-11
+permalink: /posts/2023/03/obelisks
 excerpt_separator: <!--more-->
 always_allow_html: true
 toc: true
 tags:
   - subviral entities
 ---
-
-# RNA Obelisks
 
 ## novel viroid-like entities revealed by computational biology
 
