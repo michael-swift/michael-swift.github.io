@@ -1,8 +1,8 @@
 ---
-title: Latex Cover Letter
-disable_link: true
+title: RNA Obelisks
+disable_link: false
 date: 2023-11-20
-permalink: /posts/2023/10/cover_letter
+permalink: /posts/2023/10/obelisks
 excerpt_separator: <!--more-->
 always_allow_html: true
 toc: true
