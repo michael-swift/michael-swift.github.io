@@ -1,8 +1,7 @@
 ---
 title: RNA Obelisks
-disable_link: false
-date: 2023-3-11
-permalink: /posts/2023/03/obelisks
+date: 2024-3-11
+permalink: /posts/2024/03/obelisks
 excerpt_separator: <!--more-->
 always_allow_html: true
 toc: true
@@ -11,8 +10,6 @@ tags:
 ---
 
 ## novel viroid-like entities revealed by computational biology
-
-**Mar 11, 2024**
 
 These authors _would_ write this paper, and I mean that in the good way. Andy Fire, who is famous for an deeply thoughtful career in RNA biology. Ami Bhatt is a world-class researcher at Stanford who leads a group that generates and interprets micro-biome sequencing data. What is most interesting to me is the participation of Robert C. Edgar on the paper — he is, as far as I am aware, the only “independent researcher” in biology that is respected. His open-source software MUSCLES its way into most phylogenetic analyses. Plus I like his style:
 
