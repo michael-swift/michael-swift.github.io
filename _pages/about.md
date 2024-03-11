@@ -23,6 +23,4 @@ Potential and risks of gene drives
 
 De novo / AI guided biomolecular design
 
-Pandemic surveillance using metagenomics
-
 Biotechnology that goes beyond human health (cultured meat, space microbes, synthetic biology)
