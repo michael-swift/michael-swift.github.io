@@ -13,7 +13,7 @@ tags:
 
 These authors _would_ write this paper, and I mean that in the good way. Andy Fire, who is famous for an deeply thoughtful career in RNA biology. Ami Bhatt is a world-class researcher at Stanford who leads a group that generates and interprets micro-biome sequencing data. What is most interesting to me is the participation of Robert C. Edgar on the paper — he is, as far as I am aware, the only “independent researcher” in biology that is respected. His open-source software MUSCLES its way into most phylogenetic analyses. Plus I like his style:
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd57360b0-bebf-43f2-a9e8-e97efb39c9f2_1698x940.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd57360b0-bebf-43f2-a9e8-e97efb39c9f2_1698x940.png)this is the platonic case of a dude who got rich by 
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd57360b0-bebf-43f2-a9e8-e97efb39c9f2_1698x940.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd57360b0-bebf-43f2-a9e8-e97efb39c9f2_1698x940.png)this is the platonic case of a dude who got rich by selling a tech company in the late 90s 
 <!--more-->
 ####  **So what’s a viroid?**
 
