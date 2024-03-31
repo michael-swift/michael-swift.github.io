@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a research scientist at Kerna Labs.
-
 I did my PhD in the Quake lab at Stanford. I was focused on systems biology, and in particular, modeling the dynamics of the immune system. Using single-cell sequencing technologies paired with machine learning, I helped advance our understanding of cell fate decisions of human immune cells. Useful models of these dynamics would enable us to control the human immune system as a means to solve an array of problems including cancer, aging, and auto-immune disease.
 
 ### Some other interests: 
