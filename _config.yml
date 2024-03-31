@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Michael Swift"
 title_separator          : "-"
 name                     : &name "Michael Swift"
-description              : &description "PhD Student at Stanford"
+description              : &description "Founding Research Scientist @ Kerna Labs"
 url                      : https://michael-swift.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "michael-swift.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Michael Swift"
   avatar           : "profile.png"
-  bio              : "Data Scientist / Immunologist in the Quake lab"
-  location         : "Palo Alto, California"
+  bio              : "Research Scientist @ Kerna Labs"
+  location         : "San Francisco, California"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=7Ywb2akAAAAJ"
   email            :
@@ -170,7 +170,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: false
