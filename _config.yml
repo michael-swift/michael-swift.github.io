@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Michael Swift"
+  name             : ""
   avatar           : "profile.png"
-  bio              : "Scientist @ Kerna Labs"
+  bio              : ""
   location         : "San Francisco, California"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=7Ywb2akAAAAJ"
