@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a quantitative biologist designing better RNA therapeutics. 
+I'm a quantitative biologist using ML to design better RNA therapeutics. 
 
 I earned my PhD in the Quake lab at Stanford. I was focused on systems biology, and in particular, modeling the dynamics of the immune system. Using single-cell sequencing technologies paired with machine learning, I helped advance our understanding of cell fate decisions of human immune cells. Useful models of these dynamics would enable us to control the human immune system as a means to solve an array of problems including cancer, aging, and auto-immune disease.
 
