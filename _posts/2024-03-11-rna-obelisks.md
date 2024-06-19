@@ -11,7 +11,7 @@ tags:
 
 ## novel viroid-like entities revealed by computational biology
 
-These authors _would_ write this paper, and I mean that in the good way. Andy Fire, who is famous for an deeply thoughtful career in RNA biology. Ami Bhatt is a world-class researcher at Stanford who leads a group that generates and interprets micro-biome sequencing data. What is most interesting to me is the participation of Robert C. Edgar on the paper — he is, as far as I am aware, the only “independent researcher” in biology that is respected. His open-source software MUSCLES its way into most phylogenetic analyses. Plus I like his style:
+These authors _would_ write this paper, and I mean that in the good way. We have Andy Fire, who is famous for a deeply thoughtful career in RNA biology. We have Ami Bhatt: a world-class researcher who leads a group that generates and interprets micro-biome sequencing data. We also have the participation of Robert C. Edgar on the paper — he is, as far as I am aware, the only “independent researcher” in biology that is respected. His open-source software MUSCLES its way into many a phylogenetic analysis. Plus I like his style:
 
 [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd57360b0-bebf-43f2-a9e8-e97efb39c9f2_1698x940.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd57360b0-bebf-43f2-a9e8-e97efb39c9f2_1698x940.png)this is the platonic case of a dude who got rich by selling a tech company in the late 90s 
 <!--more-->
@@ -21,7 +21,7 @@ It is like a virus, but even simpler. Viruses are genetic parasites which genera
 
 #### Viroid nominator
 
-Enter Vnom a program developed by the authors which uses a few simple heuristics to nominate possible viroid-like elements. Possible candidate assemblies should be circular and detected in positive and negative strand orientation (indicative of replication)
+Enter Vnom a program developed by the authors which uses a set of heuristics to nominate possible viroid-like elements. Possible candidate assemblies should be circular and detected in positive and negative strand orientation (indicative of replication)
 
 [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0341e07-442e-4654-9485-2ef98701b95d_1570x442.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0341e07-442e-4654-9485-2ef98701b95d_1570x442.png)
 
@@ -45,7 +45,7 @@ The proposed phylogeny (Figure 3a) is messy, and Robert would be the first to te
 
 [![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8ba1001-ee1a-4871-a9c8-a6ed60670b1e_746x890.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8ba1001-ee1a-4871-a9c8-a6ed60670b1e_746x890.png)
 
-### Do they CRISPR?
+### Are they CRISPy?
 
 The authors checked if any Obelisks have been captured by CRISPR systems, which may indicate hostile interactions with prokaryotic hosts. Using a database of nearly 30 million CRISPR spacers, they ran a conservative k-mer matching search. Out of around 39,000 Obelisk sequences examined, only one measly spacer mapped to a putative "Obelisk-gamma" contig over 1000 nts long. Seems this spacer comes from the alphaprotebacterium Bombella mellum. But Obelisk-gamma looks kinda wonky - deviating from that classic rod-like structure with some unpaired, frayed ends. The author’s remain equivocal about whether this is some type of computational artefact or a real CRISPR hit.
 
