@@ -1,5 +1,5 @@
 ---
-title: "Understanding cell reprogramming using lineage tracing and human B cells"
+title: "Leveraging lineage tracing to understand cell reprogramming"
 disable_link: true
 excerpt: "In this study, I investigated a fundamental question in developmental biology: how do cells integrate external signals with their intrinsic cellular state during the process of cell reprogramming? To address this, I used human B cells, a type of immune cell, as a model system.
 <br/><img src='/images/bcell_schematic.png' alt='B Cell Schematic' style='display: block; margin-left: auto; margin-right: auto; width: 75%'>
