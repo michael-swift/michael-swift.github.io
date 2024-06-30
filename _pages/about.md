@@ -24,4 +24,4 @@ bioprospecting the extremophiles
 
 producing music
 
-applying systems biological principles to frontier AI models
+frontier AI models I guess
