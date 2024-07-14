@@ -18,10 +18,8 @@ making long DNA synthesis easy and inexpensive
 
 scuplting biomes using gene drives
 
-culturing meat
+scientific education
 
 bioprospecting the extremophiles
 
 producing music
-
-frontier AI models I guess
