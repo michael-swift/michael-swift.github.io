@@ -5,6 +5,7 @@ excerpt: "An exploration of AI-assisted art remixing"
 collection: art
 custom_css: custom-art
 classes: art-page
+layout: single
 ---
 
 # Remixing Line Drawings with AI
