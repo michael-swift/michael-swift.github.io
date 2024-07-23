@@ -35,11 +35,16 @@ figcaption {
   text-align: center; /* Center the caption text */
   margin-top: 5px; /* Add some space between image and caption */
 }
+.centered-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>
 
 People seem upset about AI "stealing" art and thus devaluing creators. I wanted to explore that idea by remixing my partner's line drawings with AI unbeknownst to her. She drew this unfinished baker:
 
-<figure>
+<figure class="centered-caption">
   <img src="{{ site.baseurl }}/images/art/baker.png" alt="Original line drawing of a baker" class="centered-image">
   <figcaption>Original line drawing by my partner</figcaption>
 </figure>
@@ -65,13 +70,9 @@ I asked DALL-E to remix it. Here are the results:
   </figure>
 </div>
 
-To be honest, they aren't that cool. 
+To be honest, they aren't that cool. My sense is that the appeal of generative AI in art is that it brings the cost (and skill) of remixing towards zero. So I decided to make a collage of many of the remixes — which would maybe drive a gestalt.
 
-My sense is that the appeal of generative AI in art is that it brings the cost (and skill) of remixing towards zero. 
-
-So I decided to make a collage of many of the remixes — which would maybe drive a gestalt.
-
-<figure>
+<figure class="centered-caption">
   <img src="{{ site.baseurl }}/images/art/baker/collage_3.png" alt="Collage of AI-remixed drawings" class="large-centered-image">
   <figcaption>Collage of AI remixes</figcaption>
 </figure>
