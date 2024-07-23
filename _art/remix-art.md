@@ -65,7 +65,11 @@ I asked DALL-E to remix it. Here are the results:
   </figure>
 </div>
 
-To be honest, they aren't that cool. My sense is that the appeal of generative AI in art is that it brings the cost (and skill) of remixing to zero. So I decided to make a collage of many of the remixes — which would maybe drive interest.
+To be honest, they aren't that cool. 
+
+My sense is that the appeal of generative AI in art is that it brings the cost (and skill) of remixing towards zero. 
+
+So I decided to make a collage of many of the remixes — which would maybe drive a gestalt.
 
 <figure>
   <img src="{{ site.baseurl }}/images/art/baker/collage_3.png" alt="Collage of AI-remixed drawings" class="large-centered-image">
