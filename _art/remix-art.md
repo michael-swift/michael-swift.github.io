@@ -15,6 +15,12 @@ layout: single
   margin-right: auto;
   width: 25%; /* Adjust this value as needed */
 }
+.large-centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; /* Adjust this value as needed */
+}
 .image-gallery {
   display: flex;
   justify-content: center;
@@ -62,7 +68,7 @@ I asked DALL-E to remix it. Here are the results:
 To be honest, they aren't that cool. My sense is that the appeal of generative AI in art is that it brings the cost (and skill) of remixing to zero. So I decided to make a collage of many of the remixes — which would maybe drive interest.
 
 <figure>
-  <img src="../images/art/baker/collage_3.png" alt="Collage of AI-remixed drawings" class="centered-image">
+  <img src="../images/art/baker/collage_3.png" alt="Collage of AI-remixed drawings" class="large-centered-image">
   <figcaption>Collage of AI remixes</figcaption>
 </figure>
 
