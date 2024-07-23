@@ -176,12 +176,18 @@ collections:
     output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: false
     permalink: /:collection/:path/
   projects:
+    output: true
+    permalink: /:collection/:path/
+  science:
+    output: true
+    permalink: /:collection/:path/
+  art:
     output: true
     permalink: /:collection/:path/
 

@@ -1,7 +1,11 @@
-# main links links
+# main links
 main:
-  - title: "projects"
-    url: /projects/
+  - title: "Science"
+    url: /science/
+  
+  - title: "Art"
+    url: /art/
         
-  - title: "posts"
+  - title: "Posts"
     url: /posts/
+
