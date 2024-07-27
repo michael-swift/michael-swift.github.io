@@ -42,7 +42,7 @@ figcaption {
 }
 </style>
 
-People seem upset about AI "stealing" art and thus devaluing creators. I wanted to explore that idea by remixing my partner's line drawings with AI unbeknownst to her. She drew this unfinished baker:
+Creators are upset about AI "stealing" art and thus devaluing their. I wanted to explore that idea by remixing my partner's line drawings. Could AI add something interesting and would she enjoy it / be inspired by it? She drew this unfinished baker one time:
 
 <figure class="centered-caption">
   <img src="{{ site.baseurl }}/images/art/baker.png" alt="Original line drawing of a baker" class="centered-image">
@@ -51,7 +51,7 @@ People seem upset about AI "stealing" art and thus devaluing creators. I wanted 
 
 ## AI Remixes
 
-I asked DALL-E to remix it. Here are the results:
+I asked the DALL-E API to remix it, masking various parts of the image and auto-generating prompts using GPT-3. Here are the results:
 
 <div class="image-gallery">
   <figure>
@@ -70,11 +70,11 @@ I asked DALL-E to remix it. Here are the results:
   </figure>
 </div>
 
-To be honest, they aren't that cool. My sense is that the appeal of generative AI in art is that it brings the cost (and skill) of remixing towards zero. So I decided to make a collage of many of the remixes — which would maybe drive a gestalt.
+To be honest, they aren't that cool. My sense is that the appeal of generative AI in art is that it brings the cost (and skill) of remixing towards zero. So I decided to make a collage of many of the remixes — which would maybe drive a gestalt
 
 <figure class="centered-caption">
   <img src="{{ site.baseurl }}/images/art/baker/collage_3.png" alt="Collage of AI-remixed drawings" class="large-centered-image">
   <figcaption>Collage of AI remixes</figcaption>
 </figure>
 
-She didn't seem particularly moved by any of this, but was supportive
+She didn't seem particularly moved by any of this, but was quite supportive
