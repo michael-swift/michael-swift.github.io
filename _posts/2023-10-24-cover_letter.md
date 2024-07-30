@@ -21,7 +21,3 @@ I'm writing a cover letter for my final paper from my PhD. I couldn't find a lat
 <!--more-->
 
 I've shared the work on my [github](https://github.com/michael-swift/JournalCoverLetter) and as an [Overleaf template](https://www.overleaf.com/latex/templates/journal-submission-cover-letter/vsvmwwszmdtn).
-
-## Additional Content
-
-Here you can add more details about your cover letter template, its features, or how to use it. This section will only appear on the full post page, not in the excerpt.
