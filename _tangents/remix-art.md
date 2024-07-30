@@ -42,7 +42,7 @@ figcaption {
 }
 </style>
 
-Creators are upset about AI "stealing" art and thus devaluing their. I wanted to explore that idea by remixing my partner's line drawings. Could AI add something interesting and would she enjoy it / be inspired by it? She drew this unfinished baker one time:
+I wanted to see if I could get anything interesting from remixing my partner's unfinished line drawings. 
 
 <figure class="centered-caption">
   <img src="{{ site.baseurl }}/images/art/baker.png" alt="Original line drawing of a baker" class="centered-image">
