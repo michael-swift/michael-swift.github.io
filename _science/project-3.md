@@ -1,8 +1,6 @@
 ---
 title: "Creating the datasets to enable Molecular Medicine"
 disable_link: true
-excerpt: "I'm a key contributor to the Tabula Sapiens Consortium, where we've created a multi-organ, single-cell transcriptomic atlas of humans. This atlas is a valuable resource for training foundation models of biology and understanding the molecular basis of diseases.
-My role has run the full-stack of the project from procuring organs, processing them into single-cell suspensions, preparing sequencing libraries, and analyzing the vast datasets created. I've been partiularly interested in analyzing the immune cells across tissues. By studying these cells the context of the broader human atlas, we're gaining new insights into this complex system's function and regulation. You can find the full paper [here](https://www.science.org/doi/10.1126/science.abl4896). \n <br/><img src='/images/reduced_ts_figure.png' alt='Reduced TS Figure' style='display: block; margin-left: auto; margin-right: auto;'> \n \n \n" 
+excerpt: "<img src='/images/reduced_ts_figure.png' alt='Reduced TS Figure' style='max-width: 100%; height: auto; display: block; margin: 0 auto;'> \n \n As a key contributor to the Tabula Sapiens Consortium, I've helped create a multi-organ, single-cell transcriptomic atlas of humans. This atlas serves as a valuable resource for training foundation models of biology and understanding the molecular basis of diseases. \n \n My contributions include: \n - Procuring organs \n - Processing tissues into single-cell suspensions \n - Preparing sequencing libraries \n - Analyzing vast datasets \n \n Research focus: \n Analyzing immune cells across tissues to gain new insights into this complex system's function and regulation within the context of the broader human atlas. \n \n [Read the full paper](https://www.science.org/doi/10.1126/science.abl4896)"
 collection: science
 ---
-
