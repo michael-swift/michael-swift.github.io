@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Science"
+  - title: "science"
     url: /science/
   
-  - title: "Art"
-    url: /art/
+  - title: "tangents"
+    url: /tangents/
         
-  - title: "Posts"
+  - title: "posts"
     url: /posts/
 
