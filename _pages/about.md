@@ -14,12 +14,10 @@ I earned my PhD in the Quake lab at Stanford. My focus was on systems biology. I
 
 ### Some other interests: 
 
-making long DNA synthesis easy and inexpensive
-
 scuplting biomes using gene drives
 
-scientific education
-
 bioprospecting the extremophiles
+
+scientific education
 
 producing music
