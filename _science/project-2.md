@@ -5,7 +5,7 @@ excerpt: "This study investigates how cells integrate external signals with thei
 collection: science
 ---
 
-![B Cell Schematic](/images/bcell_schematic.png)
+<img src="/images/bcell_schematic.png" alt="B Cell Schematic" style="width: 80%; max-width: 600px;">
 
 This study investigates how cells integrate external signals with their intrinsic state during reprogramming, using human B cells as a model system.
 
@@ -14,7 +14,7 @@ Key findings:
 - Reprogrammed cell populations show high diversity in final states
 - Cells from the same lineage (clones) often adopt similar fates, indicating the importance of initial cell state
 
-![Lineage Graph](/images/lineage_tracing_measurement.png)
+<img src="/images/lineage_tracing_measurement.png" alt="Lineage Graph" style="width: 80%; max-width: 600px;">
 
 These results have important implications for cell-based therapies and tissue engineering. Intrinsic heterogeneity in the input cells should be understood and harnessed for better outcomes.
 

@@ -5,7 +5,7 @@ excerpt: "As a key contributor to the Tabula Sapiens Consortium, I've helped cre
 collection: science
 ---
 
-![Reduced TS Figure](/images/reduced_ts_figure.png)
+<img src="/images/reduced_ts_figure.png" alt="Reduced TS Figure" style="width: 80%; max-width: 600px;">
 
 As a key contributor to the Tabula Sapiens Consortium, I've helped create a multi-organ, single-cell transcriptomic atlas of humans. This atlas serves as a valuable resource for training foundation models of biology and understanding the molecular basis of diseases.
 

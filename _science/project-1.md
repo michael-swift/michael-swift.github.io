@@ -5,7 +5,7 @@ excerpt: A systems-level view of B cells
 collection: science
 ---
 
-![Tabula Bursa Schematic](/images/tabula_bursa_schematic.png)
+<img src="/images/tabula_bursa_schematic.png" alt="Tabula Bursa Schematic" style="width: 80%; max-width: 600px;">
 
 Ivana Cvijovic and I generated a systems-level perspective of the human B cell system. Our study provides crucial insights into long-term antibody memory in Humans and informs non-invasive immune monitoring.
 
