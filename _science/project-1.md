@@ -1,7 +1,7 @@
 ---
 title: "Mapping the Statistics of the Human B cell system"
 disable_link: true
-excerpt: "Ivana Cvijovic and I generated a systems-level perspective of the human B cell system, providing crucial insights into long-term antibody memory in Humans and informing non-invasive immune monitoring."
+excerpt: A systems-level view of B cells
 collection: science
 ---
 
