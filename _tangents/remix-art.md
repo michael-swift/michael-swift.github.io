@@ -1,7 +1,7 @@
 ---
 title: "re:mixing Line Drawings with AI"
 disable_link: false
-excerpt: "re:mixing -- like with respect to mixing but also remixing"
+excerpt: "using the Dall-E API"
 collection: tangents
 custom_css: custom-art
 classes: art-page
