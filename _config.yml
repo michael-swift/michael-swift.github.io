@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Michael Swift"
 title_separator          : "-"
 name                     : &name "Michael Swift"
-description              : &description "Founding Research Scientist @ Stealth Biotech"
+description              : &description "Founding Research Scientist @ Kerna Labs"
 url                      : https://michael-swift.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "michael-swift.github.io"
@@ -101,7 +101,7 @@ author:
   lastfm           :
   linkedin         : 
   pinterest        :
-  soundcloud       : "michael-swift-683206939"
+  soundcloud       : 
   steam            :
   tumblr           :
   vine             :
@@ -109,6 +109,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  spotify          : "https://open.spotify.com/artist/7h0IImuYCl29S1QwV0fpE0?si=oAMfbFXDT5evDTp0QxM8ow"
 
 
 # Reading Files
