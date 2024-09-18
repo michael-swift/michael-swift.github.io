@@ -1,17 +1,11 @@
 ---
-title: Latex Cover Letter
-disable_link: true
+title: "Latex Cover Letter Template"
 date: 2023-11-20
 permalink: /posts/2023/10/cover_letter
-excerpt_separator: <!--more-->
-always_allow_html: true
-toc: true
+categories: [LaTeX, Academic]
+tags: [scientific publishing, cover letter, latex]
 header:
- og_image: "/images/posts/latex/fake_university_seal.png"
-tags:
-  - scientific publishing
-  - cover letter
-  - latex
+  og_image: "/images/posts/latex/fake_university_seal.png"
 ---
 
 ![png](/images/posts/latex/manuscript_submission_cover_letter_overleaf.png)
