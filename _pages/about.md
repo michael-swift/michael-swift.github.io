@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a quantitative biologist using ML to design better RNA therapeutics. 
+I'm a quantitative biologist using ML to design better RNA therapeutics. I earned my PhD in the Quake lab at Stanford, where I studied the generation and maintenance of diversity in the human immune system.
 
 ### Some other interests: 
 
