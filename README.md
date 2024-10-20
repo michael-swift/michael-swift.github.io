@@ -1,3 +1,3 @@
 ## My Personal Website
 
-Inspired by Artidoro
+Why are you even reading this? Like why?
