@@ -12,9 +12,9 @@ I'm a quantitative biologist using ML to design better RNA therapeutics. I earne
 
 ### Some other interests: 
 
-bioprospecting the extremophiles
-
 scientific education
+
+bio-threat models
 
 producing music
 
