@@ -3,9 +3,8 @@ main:
   - title: "science"
     url: /science/
   
-  - title: "tangents"
-    url: /tangents/
-        
   - title: "posts"
     url: /posts/
-
+        
+  - title: "tangents"
+    url: /tangents/
