@@ -16,8 +16,11 @@ I earned my PhD at Stanford in the Quake lab, where I studied the generation and
 
 scientific education
 
-bio-threat models
+sequencing everything and everyone
+
+sculpting biomes using gene drives
+
+mitigating bioterrorism
 
 producing music
 
-sculpting biomes using gene drives
