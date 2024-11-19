@@ -3,18 +3,16 @@ layout: single
 title: "Sound Reasoning: Auditory Representations of Mathematical Concepts"
 excerpt: "Mathematical reasoning through auditory representations of statistical distributions"
 date: 2024-11-18
-last_modified_at: 2024-11-18
+last_modified_at: 2024-11-19
 status: in_progress
 tags:
-  - AI
   - Audio
-  - Mathematics
   - Signal Processing
   - Probability
 toc: true
 toc_sticky: true
 header:
-  overlay_color: "#000"
+  overlay_color: "#006699"
   overlay_filter: "0.5"
   overlay_text: "An AIdea for Future Agents"
 aidea_context: >
@@ -24,13 +22,13 @@ aidea_context: >
   AI systems could expand into a comprehensive framework for mathematical sonification.
 ---
 
-# Blog Post Teaser:
+# Final Form Teaser:
 
 Have you ever wondered what probability distributions sound like?
 
 Probably not. You probably have better things to do. 
 
-But maybe you're curious now. I coded up some audio demos of probability distributions, and I found it kind of interesting.
+But maybe you're curious now. I coded up some audio demos of probability distributions, and heard things you've never heard before.
 
 Look, we're all used to **seeing** probability distributions. The bold and audacious curves of the the normal distribution. Or perhaps the timeless beauty of the exponential distribution.
 
@@ -40,7 +38,7 @@ If you've taken a stats class, these are old friends. Except you've never heard 
 
 # Problem Statement
 
-Develop a framework that enables the sonification of mathematical and statistical concepts.
+Develop a framework that enables the sonification of mathematical and statistical concepts. This could be educational and even increase accessibility for those with visual impairments.
 
 # Key Requirements
 
@@ -83,8 +81,7 @@ The initial exploration demonstrated several key concepts:
 - I understand that there is a framework called react that would maybe build a web app (?)
 
 ## Development Considerations
-- Focus on creating clear mappings between mathematical properties and sound parameters
-- Implement logging for all audio transformations and parameters
+- Focus on clear / meaningful mappings between mathematical properties and sound parameters
 - Consider both time-domain and frequency-domain representations
 - Build modular components that can be combined for complex concepts
 - Include metadata about mathematical properties in audio files
@@ -92,6 +89,8 @@ The initial exploration demonstrated several key concepts:
 ## Potential Pitfalls
 - Avoid confusing or misleading audio representations
 - Maintain consistent scaling across different mathematical operations
-- Making too many paperclips
+- Don't make too many paperclips
 
 # Changelog
+- 2017-12-15: Initial concept and code
+- 2024-11-18: Initial draft aidea
