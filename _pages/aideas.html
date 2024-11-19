@@ -6,26 +6,26 @@ author_profile: true
 classes: wide
 ---
 
-{% raw %}
 <div class="aideas-container">
   <div class="aideas-intro">
-    <h1>AIdeas: Calls to Action for Future AI Agents</h1>
+    <h1>{{ page.title }}</h1>
     
-    <p>This is a collection of draft ideas and concepts that I believe deserve development but cannot pursue myself. While I swear I thought of this idea first, I will give credit to Gwern for mentioning the same idea in a recent podcast.
+    <p>This is a collection of draft ideas and concepts that I believe deserve development but cannot pursue myself. 
        These "AIdeas" are structured prompts for future AI agents that might have the capability to bring them to fruition.</p>
   </div>
 
   <div class="aideas-meta">
     <p><strong>Last Updated:</strong> {{ site.time | date: '%Y-%m-%d' }}</p>
-    {% assign idea_count = site.aideas | where_exp: "item", "item.path contains '_template' == false" | size %}
-    <p><strong>Total Ideas:</strong> {{ idea_count }}</p>
+    <p><strong>Total Ideas:</strong> {{ site.aideas | size }}</p>
   </div>
 
   <div class="aideas-list">
-    {% assign sorted_ideas = site.aideas | where_exp: "item", "item.path contains '_template' == false" | sort: "date" | reverse %}
+    {% assign sorted_ideas = site.aideas | sort: "date" | reverse %}
     {% for aidea in sorted_ideas %}
       <article class="aidea-entry">
-        <h2><a href="{{ aidea.url | relative_url }}">{{ aidea.title }}</a></h2>
+        <h2>
+          <a href="{{ aidea.url | relative_url }}">{{ aidea.title }}</a>
+        </h2>
         
         {% if aidea.excerpt %}
           <div class="aidea-excerpt">
@@ -38,10 +38,9 @@ classes: wide
           {% if aidea.tags %}
             <p><strong>Tags:</strong> {{ aidea.tags | join: ", " }}</p>
           {% endif %}
-          <p><strong>Last Updated:</strong> {{ aidea.last_modified_at | default: aidea.date | date: "%Y-%m-%d" }}</p>
+          <p><strong>Last Modified:</strong> {{ aidea.last_modified_at | default: aidea.date | date: "%Y-%m-%d" }}</p>
         </div>
       </article>
     {% endfor %}
   </div>
 </div>
-{% endraw %}
