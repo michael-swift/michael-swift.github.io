@@ -1,0 +1,24 @@
+﻿2024-11-19T05:07:22.5096527Z Current runner version: '2.321.0'
+2024-11-19T05:07:22.5136211Z ##[group]Operating System
+2024-11-19T05:07:22.5137325Z Ubuntu
+2024-11-19T05:07:22.5138291Z 22.04.5
+2024-11-19T05:07:22.5138964Z LTS
+2024-11-19T05:07:22.5139687Z ##[endgroup]
+2024-11-19T05:07:22.5140594Z ##[group]Runner Image
+2024-11-19T05:07:22.5141465Z Image: ubuntu-22.04
+2024-11-19T05:07:22.5142420Z Version: 20241112.1.0
+2024-11-19T05:07:22.5144383Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20241112.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-11-19T05:07:22.5146936Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20241112.1
+2024-11-19T05:07:22.5148487Z ##[endgroup]
+2024-11-19T05:07:22.5149576Z ##[group]Runner Image Provisioner
+2024-11-19T05:07:22.5150543Z 2.0.384.1
+2024-11-19T05:07:22.5151315Z ##[endgroup]
+2024-11-19T05:07:22.5153201Z ##[group]GITHUB_TOKEN Permissions
+2024-11-19T05:07:22.5155729Z Contents: read
+2024-11-19T05:07:22.5156619Z Metadata: read
+2024-11-19T05:07:22.5157406Z Pages: write
+2024-11-19T05:07:22.5159111Z ##[endgroup]
+2024-11-19T05:07:22.5162140Z Secret source: Actions
+2024-11-19T05:07:22.5163179Z Prepare workflow directory
+2024-11-19T05:07:22.5646930Z Prepare all required actions
+2024-11-19T05:07:22.5790222Z Complete job name: report-build-status

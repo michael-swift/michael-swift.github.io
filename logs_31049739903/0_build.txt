@@ -1,0 +1,291 @@
+﻿2024-11-19T05:07:00.0039558Z Current runner version: '2.321.0'
+2024-11-19T05:07:00.0065937Z ##[group]Operating System
+2024-11-19T05:07:00.0066706Z Ubuntu
+2024-11-19T05:07:00.0067214Z 22.04.5
+2024-11-19T05:07:00.0067673Z LTS
+2024-11-19T05:07:00.0068129Z ##[endgroup]
+2024-11-19T05:07:00.0068569Z ##[group]Runner Image
+2024-11-19T05:07:00.0069266Z Image: ubuntu-22.04
+2024-11-19T05:07:00.0069736Z Version: 20241112.1.0
+2024-11-19T05:07:00.0070707Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20241112.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-11-19T05:07:00.0072146Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20241112.1
+2024-11-19T05:07:00.0072999Z ##[endgroup]
+2024-11-19T05:07:00.0073574Z ##[group]Runner Image Provisioner
+2024-11-19T05:07:00.0074266Z 2.0.384.1
+2024-11-19T05:07:00.0074769Z ##[endgroup]
+2024-11-19T05:07:00.0075753Z ##[group]GITHUB_TOKEN Permissions
+2024-11-19T05:07:00.0077898Z Contents: read
+2024-11-19T05:07:00.0078398Z Metadata: read
+2024-11-19T05:07:00.0079163Z Pages: write
+2024-11-19T05:07:00.0079736Z ##[endgroup]
+2024-11-19T05:07:00.0081792Z Secret source: Actions
+2024-11-19T05:07:00.0082603Z Prepare workflow directory
+2024-11-19T05:07:00.0402507Z Prepare all required actions
+2024-11-19T05:07:00.0439325Z Getting action download info
+2024-11-19T05:07:00.4232680Z Download action repository 'actions/checkout@v4' (SHA:11bd71901bbe5b1630ceea73d27597364c9af683)
+2024-11-19T05:07:00.5186452Z Download action repository 'actions/jekyll-build-pages@v1' (SHA:44a6e6beabd48582f863aeeb6cb2151cc1716697)
+2024-11-19T05:07:00.7417093Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+2024-11-19T05:07:00.9817927Z Getting action download info
+2024-11-19T05:07:01.0865551Z Download action repository 'actions/upload-artifact@v4' (SHA:b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882)
+2024-11-19T05:07:01.2022051Z Complete job name: build
+2024-11-19T05:07:01.2509592Z ##[group]Pull down action image 'ghcr.io/actions/jekyll-build-pages:v1.0.13'
+2024-11-19T05:07:01.2611439Z ##[command]/usr/bin/docker pull ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-11-19T05:07:01.5626464Z v1.0.13: Pulling from actions/jekyll-build-pages
+2024-11-19T05:07:01.5627737Z efc2b5ad9eec: Pulling fs layer
+2024-11-19T05:07:01.5628482Z 165b60d1bb48: Pulling fs layer
+2024-11-19T05:07:01.5629209Z 2a328af1ca3a: Pulling fs layer
+2024-11-19T05:07:01.5630130Z 32b58fa44788: Pulling fs layer
+2024-11-19T05:07:01.5631361Z 590ab93c22d2: Pulling fs layer
+2024-11-19T05:07:01.5632543Z 26ea96c4c14c: Pulling fs layer
+2024-11-19T05:07:01.5633650Z bd7e451dfea1: Pulling fs layer
+2024-11-19T05:07:01.5634578Z c209e9dadc51: Pulling fs layer
+2024-11-19T05:07:01.5635316Z a4925b5c711a: Pulling fs layer
+2024-11-19T05:07:01.5636010Z cd9459784e3c: Pulling fs layer
+2024-11-19T05:07:01.5636879Z 32b58fa44788: Waiting
+2024-11-19T05:07:01.5637556Z 590ab93c22d2: Waiting
+2024-11-19T05:07:01.5638451Z 26ea96c4c14c: Waiting
+2024-11-19T05:07:01.5639177Z bd7e451dfea1: Waiting
+2024-11-19T05:07:01.5639875Z cd9459784e3c: Waiting
+2024-11-19T05:07:01.5640666Z c209e9dadc51: Waiting
+2024-11-19T05:07:01.5641371Z a4925b5c711a: Waiting
+2024-11-19T05:07:01.6306837Z 2a328af1ca3a: Download complete
+2024-11-19T05:07:01.7060079Z 165b60d1bb48: Verifying Checksum
+2024-11-19T05:07:01.7062468Z 165b60d1bb48: Download complete
+2024-11-19T05:07:01.7591008Z efc2b5ad9eec: Verifying Checksum
+2024-11-19T05:07:01.7593709Z efc2b5ad9eec: Download complete
+2024-11-19T05:07:01.7796269Z 590ab93c22d2: Verifying Checksum
+2024-11-19T05:07:01.7798544Z 590ab93c22d2: Download complete
+2024-11-19T05:07:01.8508898Z bd7e451dfea1: Download complete
+2024-11-19T05:07:01.8813972Z 32b58fa44788: Verifying Checksum
+2024-11-19T05:07:01.8816627Z 32b58fa44788: Download complete
+2024-11-19T05:07:01.9778024Z a4925b5c711a: Verifying Checksum
+2024-11-19T05:07:01.9781549Z a4925b5c711a: Download complete
+2024-11-19T05:07:02.0635275Z cd9459784e3c: Verifying Checksum
+2024-11-19T05:07:02.0640158Z cd9459784e3c: Download complete
+2024-11-19T05:07:02.1114422Z c209e9dadc51: Verifying Checksum
+2024-11-19T05:07:02.1116694Z c209e9dadc51: Download complete
+2024-11-19T05:07:02.5330977Z 26ea96c4c14c: Verifying Checksum
+2024-11-19T05:07:02.5332356Z 26ea96c4c14c: Download complete
+2024-11-19T05:07:03.0338250Z efc2b5ad9eec: Pull complete
+2024-11-19T05:07:03.8038463Z 165b60d1bb48: Pull complete
+2024-11-19T05:07:04.0237199Z 2a328af1ca3a: Pull complete
+2024-11-19T05:07:05.0954265Z 32b58fa44788: Pull complete
+2024-11-19T05:07:05.1075004Z 590ab93c22d2: Pull complete
+2024-11-19T05:07:09.1676005Z 26ea96c4c14c: Pull complete
+2024-11-19T05:07:09.1781570Z bd7e451dfea1: Pull complete
+2024-11-19T05:07:11.1498204Z c209e9dadc51: Pull complete
+2024-11-19T05:07:11.1789394Z a4925b5c711a: Pull complete
+2024-11-19T05:07:11.1901627Z cd9459784e3c: Pull complete
+2024-11-19T05:07:11.1948022Z Digest: sha256:6791ebfd912185ed59bfb5fb102664fa872496b79f87ff8b9cfba292a7345041
+2024-11-19T05:07:11.1967651Z Status: Downloaded newer image for ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-11-19T05:07:11.1979941Z ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-11-19T05:07:11.2000893Z ##[endgroup]
+2024-11-19T05:07:11.2277388Z ##[group]Run actions/checkout@v4
+2024-11-19T05:07:11.2278026Z with:
+2024-11-19T05:07:11.2278445Z   ref: master
+2024-11-19T05:07:11.2278679Z   submodules: recursive
+2024-11-19T05:07:11.2278993Z   repository: michael-swift/michael-swift.github.io
+2024-11-19T05:07:11.2279558Z   token: ***
+2024-11-19T05:07:11.2279810Z   ssh-strict: true
+2024-11-19T05:07:11.2280072Z   ssh-user: git
+2024-11-19T05:07:11.2280369Z   persist-credentials: true
+2024-11-19T05:07:11.2280704Z   clean: true
+2024-11-19T05:07:11.2280940Z   sparse-checkout-cone-mode: true
+2024-11-19T05:07:11.2281334Z   fetch-depth: 1
+2024-11-19T05:07:11.2281592Z   fetch-tags: false
+2024-11-19T05:07:11.2281825Z   show-progress: true
+2024-11-19T05:07:11.2282078Z   lfs: false
+2024-11-19T05:07:11.2282411Z   set-safe-directory: true
+2024-11-19T05:07:11.2282984Z ##[endgroup]
+2024-11-19T05:07:11.4718130Z Syncing repository: michael-swift/michael-swift.github.io
+2024-11-19T05:07:11.4720167Z ##[group]Getting Git version info
+2024-11-19T05:07:11.4721326Z Working directory is '/home/runner/work/michael-swift.github.io/michael-swift.github.io'
+2024-11-19T05:07:11.4722770Z [command]/usr/bin/git version
+2024-11-19T05:07:11.4775101Z git version 2.47.0
+2024-11-19T05:07:11.4807224Z ##[endgroup]
+2024-11-19T05:07:11.4828166Z Temporarily overriding HOME='/home/runner/work/_temp/c7ac4a91-8fd8-4412-ba47-bb88c981bcfb' before making global git config changes
+2024-11-19T05:07:11.4829768Z Adding repository directory to the temporary git global config as a safe directory
+2024-11-19T05:07:11.4834924Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/michael-swift.github.io/michael-swift.github.io
+2024-11-19T05:07:11.4870778Z Deleting the contents of '/home/runner/work/michael-swift.github.io/michael-swift.github.io'
+2024-11-19T05:07:11.4874746Z ##[group]Initializing the repository
+2024-11-19T05:07:11.4879544Z [command]/usr/bin/git init /home/runner/work/michael-swift.github.io/michael-swift.github.io
+2024-11-19T05:07:11.4958900Z hint: Using 'master' as the name for the initial branch. This default branch name
+2024-11-19T05:07:11.4959981Z hint: is subject to change. To configure the initial branch name to use in all
+2024-11-19T05:07:11.4960681Z hint: of your new repositories, which will suppress this warning, call:
+2024-11-19T05:07:11.4961385Z hint:
+2024-11-19T05:07:11.4961845Z hint: 	git config --global init.defaultBranch <name>
+2024-11-19T05:07:11.4962285Z hint:
+2024-11-19T05:07:11.4962751Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2024-11-19T05:07:11.4963646Z hint: 'development'. The just-created branch can be renamed via this command:
+2024-11-19T05:07:11.4964405Z hint:
+2024-11-19T05:07:11.4964756Z hint: 	git branch -m <name>
+2024-11-19T05:07:11.4965504Z Initialized empty Git repository in /home/runner/work/michael-swift.github.io/michael-swift.github.io/.git/
+2024-11-19T05:07:11.4976805Z [command]/usr/bin/git remote add origin https://github.com/michael-swift/michael-swift.github.io
+2024-11-19T05:07:11.5014922Z ##[endgroup]
+2024-11-19T05:07:11.5015685Z ##[group]Disabling automatic garbage collection
+2024-11-19T05:07:11.5016126Z [command]/usr/bin/git config --local gc.auto 0
+2024-11-19T05:07:11.5043543Z ##[endgroup]
+2024-11-19T05:07:11.5044146Z ##[group]Setting up auth
+2024-11-19T05:07:11.5052749Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-11-19T05:07:11.5081983Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-11-19T05:07:11.5425448Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-11-19T05:07:11.5455371Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-11-19T05:07:11.5688519Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-11-19T05:07:11.5724443Z ##[endgroup]
+2024-11-19T05:07:11.5725313Z ##[group]Fetching the repository
+2024-11-19T05:07:11.5734816Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/master*:refs/remotes/origin/master* +refs/tags/master*:refs/tags/master*
+2024-11-19T05:07:13.1575339Z From https://github.com/michael-swift/michael-swift.github.io
+2024-11-19T05:07:13.1576422Z  * [new branch]      master     -> origin/master
+2024-11-19T05:07:13.1603461Z ##[endgroup]
+2024-11-19T05:07:13.1604219Z ##[group]Determining the checkout info
+2024-11-19T05:07:13.1611101Z [command]/usr/bin/git branch --list --remote origin/master
+2024-11-19T05:07:13.1635094Z   origin/master
+2024-11-19T05:07:13.1641240Z ##[endgroup]
+2024-11-19T05:07:13.1646339Z [command]/usr/bin/git sparse-checkout disable
+2024-11-19T05:07:13.1687526Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2024-11-19T05:07:13.1715150Z ##[group]Checking out the ref
+2024-11-19T05:07:13.1719352Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+2024-11-19T05:07:13.4978768Z Reset branch 'master'
+2024-11-19T05:07:13.4980100Z branch 'master' set up to track 'origin/master'.
+2024-11-19T05:07:13.5020904Z ##[endgroup]
+2024-11-19T05:07:13.5021837Z ##[group]Setting up auth for fetching submodules
+2024-11-19T05:07:13.5027610Z [command]/usr/bin/git config --global http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-11-19T05:07:13.5066810Z [command]/usr/bin/git config --global --unset-all url.https://github.com/.insteadOf
+2024-11-19T05:07:13.5099404Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+2024-11-19T05:07:13.5129742Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf org-42393076@github.com:
+2024-11-19T05:07:13.5157018Z ##[endgroup]
+2024-11-19T05:07:13.5157724Z ##[group]Fetching submodules
+2024-11-19T05:07:13.5161671Z [command]/usr/bin/git submodule sync --recursive
+2024-11-19T05:07:13.5403614Z [command]/usr/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+2024-11-19T05:07:13.5652809Z [command]/usr/bin/git submodule foreach --recursive git config --local gc.auto 0
+2024-11-19T05:07:13.5915188Z ##[endgroup]
+2024-11-19T05:07:13.5916538Z ##[group]Persisting credentials for submodules
+2024-11-19T05:07:13.5922149Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'url\.https\:\/\/github\.com\/\.insteadOf' && git config --local --unset-all 'url.https://github.com/.insteadOf' || :"
+2024-11-19T05:07:13.6178992Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local 'http.https://github.com/.extraheader' 'AUTHORIZATION: basic ***' && git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2024-11-19T05:07:13.6429859Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'git@github.com:'
+2024-11-19T05:07:13.6659643Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'org-42393076@github.com:'
+2024-11-19T05:07:13.6888174Z ##[endgroup]
+2024-11-19T05:07:13.6922824Z [command]/usr/bin/git log -1 --format=%H
+2024-11-19T05:07:13.6946050Z c0c29398d1f89b48bbf7b4d191de6fcaa00afea7
+2024-11-19T05:07:13.7131299Z ##[group]Run actions/jekyll-build-pages@v1
+2024-11-19T05:07:13.7131696Z with:
+2024-11-19T05:07:13.7131908Z   source: .
+2024-11-19T05:07:13.7132285Z   destination: ./_site
+2024-11-19T05:07:13.7132532Z   future: false
+2024-11-19T05:07:13.7132860Z   build_revision: c0c29398d1f89b48bbf7b4d191de6fcaa00afea7
+2024-11-19T05:07:13.7133267Z   verbose: true
+2024-11-19T05:07:13.7133625Z   token: ***
+2024-11-19T05:07:13.7133893Z ##[endgroup]
+2024-11-19T05:07:13.7223499Z ##[command]/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv1013_15a2ce --label 65caf0 --workdir /github/workspace --rm -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e "ACTIONS_RESULTS_URL" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/michael-swift.github.io/michael-swift.github.io":"/github/workspace" ghcr.io/actions/jekyll-build-pages:v1.0.13
+2024-11-19T05:07:14.2606771Z The following gems are missing
+2024-11-19T05:07:14.2607448Z  * github-pages (231)
+2024-11-19T05:07:14.2607871Z  * hawkins (2.0.5)
+2024-11-19T05:07:14.2608238Z  * jekyll (3.9.5)
+2024-11-19T05:07:14.2608583Z  * jekyll-commonmark-ghpages (0.4.0)
+2024-11-19T05:07:14.2609218Z  * nokogiri (1.16.6)
+2024-11-19T05:07:14.2609552Z  * rexml (3.3.2)
+2024-11-19T05:07:14.2609864Z  * racc (1.8.0)
+2024-11-19T05:07:14.2610315Z  * faraday (2.10.0)
+2024-11-19T05:07:14.2610761Z  * faraday-net_http (3.1.0)
+2024-11-19T05:07:14.2611186Z  * ffi (1.17.0)
+2024-11-19T05:07:14.2611822Z Install missing gems with `bundle install`
+2024-11-19T05:07:14.2656905Z ##[warning]The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
+2024-11-19T05:07:14.9396513Z To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+2024-11-19T05:07:15.7394285Z [31m  Liquid Exception: Liquid error (line 15): Cannot sort a null object. in _pages/aideas.html[0m
+2024-11-19T05:07:15.7400885Z /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/filters.rb:229:in `sort': Liquid error (line 15): Cannot sort a null object. (Liquid::ArgumentError)
+2024-11-19T05:07:15.7403067Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/strainer.rb:56:in `invoke'
+2024-11-19T05:07:15.7404244Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/context.rb:86:in `invoke'
+2024-11-19T05:07:15.7405232Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:84:in `block in render'
+2024-11-19T05:07:15.7406794Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `each'
+2024-11-19T05:07:15.7408069Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `inject'
+2024-11-19T05:07:15.7409376Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `render'
+2024-11-19T05:07:15.7410366Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/assign.rb:26:in `render'
+2024-11-19T05:07:15.7411331Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:103:in `render_node_to_output'
+2024-11-19T05:07:15.7412306Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:91:in `render'
+2024-11-19T05:07:15.7413346Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:206:in `block in render'
+2024-11-19T05:07:15.7414254Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:240:in `with_profiling'
+2024-11-19T05:07:15.7415213Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:205:in `render'
+2024-11-19T05:07:15.7416231Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:218:in `render!'
+2024-11-19T05:07:15.7417436Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:30:in `block (2 levels) in render!'
+2024-11-19T05:07:15.7418686Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:42:in `measure_bytes'
+2024-11-19T05:07:15.7419974Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:29:in `block in render!'
+2024-11-19T05:07:15.7421105Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:49:in `measure_time'
+2024-11-19T05:07:15.7422205Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:28:in `render!'
+2024-11-19T05:07:15.7423171Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:126:in `render_liquid'
+2024-11-19T05:07:15.7424233Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:79:in `render_document'
+2024-11-19T05:07:15.7425198Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:62:in `run'
+2024-11-19T05:07:15.7426106Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:479:in `render_regenerated'
+2024-11-19T05:07:15.7427186Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:472:in `block in render_pages'
+2024-11-19T05:07:15.7428040Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `each'
+2024-11-19T05:07:15.7428872Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `render_pages'
+2024-11-19T05:07:15.7429754Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:192:in `render'
+2024-11-19T05:07:15.7430642Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:71:in `process'
+2024-11-19T05:07:15.7431472Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/command.rb:28:in `process_site'
+2024-11-19T05:07:15.7432460Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:65:in `build'
+2024-11-19T05:07:15.7433379Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:36:in `process'
+2024-11-19T05:07:15.7434405Z 	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:70:in `block (3 levels) in <top (required)>'
+2024-11-19T05:07:15.7435524Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+2024-11-19T05:07:15.7436640Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+2024-11-19T05:07:15.7437622Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+2024-11-19T05:07:15.7438553Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+2024-11-19T05:07:15.7439881Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+2024-11-19T05:07:15.7440825Z 	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:6:in `<top (required)>'
+2024-11-19T05:07:15.7441669Z 	from /usr/local/bundle/bin/github-pages:25:in `load'
+2024-11-19T05:07:15.7442397Z 	from /usr/local/bundle/bin/github-pages:25:in `<main>'
+2024-11-19T05:07:15.7443712Z /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/filters.rb:229:in `sort': Cannot sort a null object. (ArgumentError)
+2024-11-19T05:07:15.7444473Z 
+2024-11-19T05:07:15.7444701Z         raise ArgumentError, "Cannot sort a null object."
+2024-11-19T05:07:15.7445475Z               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-19T05:07:15.7446384Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/strainer.rb:56:in `invoke'
+2024-11-19T05:07:15.7447283Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/context.rb:86:in `invoke'
+2024-11-19T05:07:15.7448259Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:84:in `block in render'
+2024-11-19T05:07:15.7449363Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `each'
+2024-11-19T05:07:15.7450325Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `inject'
+2024-11-19T05:07:15.7451278Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `render'
+2024-11-19T05:07:15.7452377Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/assign.rb:26:in `render'
+2024-11-19T05:07:15.7453432Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:103:in `render_node_to_output'
+2024-11-19T05:07:15.7454490Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:91:in `render'
+2024-11-19T05:07:15.7455536Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:206:in `block in render'
+2024-11-19T05:07:15.7456639Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:240:in `with_profiling'
+2024-11-19T05:07:15.7457630Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:205:in `render'
+2024-11-19T05:07:15.7458542Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:218:in `render!'
+2024-11-19T05:07:15.7459811Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:30:in `block (2 levels) in render!'
+2024-11-19T05:07:15.7461066Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:42:in `measure_bytes'
+2024-11-19T05:07:15.7462250Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:29:in `block in render!'
+2024-11-19T05:07:15.7463510Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:49:in `measure_time'
+2024-11-19T05:07:15.7464668Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:28:in `render!'
+2024-11-19T05:07:15.7465687Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:126:in `render_liquid'
+2024-11-19T05:07:15.7466826Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:79:in `render_document'
+2024-11-19T05:07:15.7467806Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:62:in `run'
+2024-11-19T05:07:15.7468838Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:479:in `render_regenerated'
+2024-11-19T05:07:15.7470002Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:472:in `block in render_pages'
+2024-11-19T05:07:15.7471054Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `each'
+2024-11-19T05:07:15.7471959Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `render_pages'
+2024-11-19T05:07:15.7472990Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:192:in `render'
+2024-11-19T05:07:15.7473919Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:71:in `process'
+2024-11-19T05:07:15.7474879Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/command.rb:28:in `process_site'
+2024-11-19T05:07:15.7475818Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:65:in `build'
+2024-11-19T05:07:15.7477228Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:36:in `process'
+2024-11-19T05:07:15.7478349Z 	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:70:in `block (3 levels) in <top (required)>'
+2024-11-19T05:07:15.7479537Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+2024-11-19T05:07:15.7480954Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+2024-11-19T05:07:15.7481975Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+2024-11-19T05:07:15.7483083Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+2024-11-19T05:07:15.7484090Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+2024-11-19T05:07:15.7485133Z 	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:6:in `<top (required)>'
+2024-11-19T05:07:15.7486171Z 	from /usr/local/bundle/bin/github-pages:25:in `load'
+2024-11-19T05:07:15.7486979Z 	from /usr/local/bundle/bin/github-pages:25:in `<main>'
+2024-11-19T05:07:15.7618320Z ##[error] Logging at level: debug Configuration file: /github/workspace/./_config.yml GitHub Pages: github-pages v232 GitHub Pages: jekyll v3.10.0 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-paginate Requiring: jekyll-sitemap Requiring: jekyll-gist Requiring: jekyll-feed Requiring: jekyll-redirect-from Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-github-metadata Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/. Destination: /github/workspace/./_site Incremental build: disabled. Enable with --incremental Generating... EntryFilter: excluded /package.json EntryFilter: excluded /LICENSE EntryFilter: excluded /CHANGELOG.md EntryFilter: excluded /Gemfile EntryFilter: excluded /README.md EntryFilter: excluded /Gemfile.lock Reading: _posts/2023-03-04-nest-map.md Reading: _posts/2023-05-24-dalle.md Reading: _posts/2023-10-24-cover_letter.md Reading: _posts/2024-03-11-rna-obelisks.md EntryFilter: excluded /assets/js/plugins EntryFilter: excluded /assets/js/vendor Reading: _teaching/2015-spring-teaching-2.md Reading: _teaching/2019-spring-teaching-1.md Reading: _publications/2015-01-01-Configurable-lipid-membrane-gradients-quantify-diffusion-phase-separations-and-binding-densities.md Reading: _publications/2020-01-01-Diverse-homeostatic-and-immunomodulatory-roles-of-immune-cells-in-the-developing-mouse-lung-at-single-cell-resolution.md Reading: _publications/2022-01-01-Fate-Bias-and-Transcriptional-Memory-of-human-B-cells.md Reading: _publications/2022-01-01-The-Tabula-Sapiens-A-multiple-organ-single-cell-transcriptomic-atlas-of-humans.md Reading: _publications/2023-01-01-Lineage-tracing-reveals-fate-bias-and-transcriptional-memory-in-human-B-cells.md Reading: _talks/5-17-22-talk-1.md Reading: _projects/project-1.md Reading: _projects/project-2.md Reading: _projects/project-3.md Reading: _projects/project-4.md Reading: _science/project-1.md Reading: _science/project-2.md Reading: _science/project-3.md Reading: _tangents/art_project.md Reading: _tangents/remix-art.md Generating: JekyllRedirectFrom::Generator finished in 0.025609442 seconds. Generating: JekyllOptionalFrontMatter::Generator finished in 0.000275123 seconds. Generating: JekyllReadmeIndex::Generator finished in 0.000485385 seconds. Generating: Jekyll::Paginate::Pagination finished in 6.332e-06 seconds. Generating: Jekyll::JekyllSitemap finished in 0.0003375 seconds. Jekyll Feed: Generating feed for posts Generating: JekyllFeed::Generator finished in 0.000656846 seconds. Generating: JekyllRelativeLinks::Generator finished in 0.001797944 seconds. Generating: JekyllDefaultLayout::Generator finished in 0.000295972 seconds. Requiring: kramdown-parser-gfm Generating: JekyllTitlesFromHeadings::Generator finished in 0.007105164 seconds. Rendering: _posts/2023-03-04-nest-map.md Pre-Render Hooks: _posts/2023-03-04-nest-map.md Rendering Markup: _posts/2023-03-04-nest-map.md Rendering Layout: _posts/2023-03-04-nest-map.md Layout source: site Rendering: _posts/2023-03-04-nest-map.md/#excerpt Pre-Render Hooks: _posts/2023-03-04-nest-map.md/#excerpt Rendering Markup: _posts/2023-03-04-nest-map.md/#excerpt Rendering: _posts/2024-03-11-rna-obelisks.md/#excerpt Pre-Render Hooks: _posts/2024-03-11-rna-obelisks.md/#excerpt Rendering Markup: _posts/2024-03-11-rna-obelisks.md/#excerpt Rendering: _posts/2023-10-24-cover_letter.md/#excerpt Pre-Render Hooks: _posts/2023-10-24-cover_letter.md/#excerpt Rendering Markup: _posts/2023-10-24-cover_letter.md/#excerpt Rendering: _posts/2023-05-24-dalle.md/#excerpt Pre-Render Hooks: _posts/2023-05-24-dalle.md/#excerpt Rendering Markup: _posts/2023-05-24-dalle.md/#excerpt GitHub Metadata: Generating for michael-swift/michael-swift.github.io GitHub Metadata: Calling @client.pages("michael-swift/michael-swift.github.io",
+2024-11-19T05:07:15.9291086Z Post job cleanup.
+2024-11-19T05:07:16.0217545Z [command]/usr/bin/git version
+2024-11-19T05:07:16.0255510Z git version 2.47.0
+2024-11-19T05:07:16.0298449Z Temporarily overriding HOME='/home/runner/work/_temp/0a72d57b-c608-43c3-bf8e-a360ae2cd36d' before making global git config changes
+2024-11-19T05:07:16.0299854Z Adding repository directory to the temporary git global config as a safe directory
+2024-11-19T05:07:16.0304569Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/michael-swift.github.io/michael-swift.github.io
+2024-11-19T05:07:16.0340967Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-11-19T05:07:16.0374457Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-11-19T05:07:16.0635299Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-11-19T05:07:16.0659746Z http.https://github.com/.extraheader
+2024-11-19T05:07:16.0673164Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2024-11-19T05:07:16.0707408Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-11-19T05:07:16.1073194Z Cleaning up orphan processes

@@ -109,8 +109,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  spotify          : "https://open.spotify.com/artist/7h0IImuYCl29S1QwV0fpE0?si=oAMfbFXDT5evDTp0QxM8ow"
-
 
 # Reading Files
 include:
@@ -191,6 +189,10 @@ collections:
   tangents:
     output: true
     permalink: /:collection/:path/
+  aideas:
+    output: true
+    permalink: /:collection/:path/
+    sort_by: date
 
 
 # Defaults
@@ -269,6 +271,13 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - faraday-retry
+  - nokogiri
+  - github-pages
+  - hawkins
+  - jekyll-commonmark-ghpages
+  - rexml
+  - racc
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
