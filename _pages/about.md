@@ -14,13 +14,9 @@ I earned my PhD at Stanford in the Quake lab, where I studied the generation and
 
 ### Some other interests: 
 
-scientific education
-
 sequencing everything and everyone
 
 sculpting biomes using gene drives
-
-mitigating bioterrorism
 
 producing music
 
