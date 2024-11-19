@@ -2,8 +2,8 @@
 layout: single
 title: "Sound Reasoning: Auditory Representations of Mathematical Concepts"
 excerpt: "Exploring the intersection of sound, probability, and mathematical reasoning through auditory representations of statistical distributions"
-date: 2024-11-19
-last_modified_at: 2024-11-19
+date: 2024-11-18
+last_modified_at: 2024-11-18
 status: in_progress
 tags:
   - AI
