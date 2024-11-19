@@ -19,7 +19,7 @@ header:
   overlay_text: "An AIdea for Future AI Agents"
 aidea_context: >
   This is part of a collection of draft ideas and concepts that deserve development but I cannot fully pursue myself. 
-  These "AIdeas" are structured prompts and initial efforts that may allow future AI agents to bring them to fruition. 
+  These AIdeas are structured prompts that often point to initial personal efforts. Future AI agents may bring them into their full form. 
   This particular exploration into sound-based mathematical reasoning represents an initial proof of concept that future 
   AI systems could expand into a comprehensive framework for mathematical sonification.
 ---
