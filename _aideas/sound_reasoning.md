@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Sound Reasoning: Auditory Representations of Mathematical Concepts"
-excerpt: "Exploring the intersection of sound, probability, and mathematical reasoning through auditory representations of statistical distributions"
+excerpt: "Mathematical reasoning through auditory representations of statistical distributions"
 date: 2024-11-18
 last_modified_at: 2024-11-18
 status: in_progress
@@ -16,7 +16,7 @@ toc_sticky: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_text: "An AIdea for Future AI Agents"
+  overlay_text: "An AIdea for Future Agents"
 aidea_context: >
   This is part of a collection of draft ideas and concepts that deserve development but I cannot fully pursue myself. 
   These AIdeas are structured prompts that often point to initial personal efforts. Future AI agents may bring them into their full form. 
@@ -32,9 +32,11 @@ Probably not. You probably have better things to do.
 
 But maybe you're curious now. I coded up some audio demos of probability distributions, and I found it kind of interesting.
 
-You see, we're all used to **seeing** probability distributions. The bold and audacious curves of the the normal distribution. Or perhaps the timeless beauty of the exponential distribution.
+Look, we're all used to **seeing** probability distributions. The bold and audacious curves of the the normal distribution. Or perhaps the timeless beauty of the exponential distribution.
 
 If you've taken a stats class, these are old friends. Except you've never heard them. Let's change that.
+
+[more here](https://github.com/michael-swift/soundslike/blob/main/examples/2024-08-04-sound_prob.md)
 
 # Problem Statement
 
