@@ -6,7 +6,7 @@ categories: [latex, templates]
 tags: [latex, job-description, template, documentation]
 ---
 
-Inspired by the both need to hire someone and this nice aesthetic for job descriptions from [b.next](https://bnext.bio/Synthetic_Cell_Engineer.pdf), I recently created a minimal LaTeX template for formatting job descriptions. The template hopefully provides a clean, professional, minimalistic layout that someone else could use.
+Inspired by both the need to hire someone and this nice aesthetic for job descriptions from [b.next](https://bnext.bio/Synthetic_Cell_Engineer.pdf), I recently created a minimal LaTeX template for formatting job descriptions. The template hopefully provides a clean, professional, minimalistic layout that someone else could use.
 
 ## Preview
 ![Job Description Template Preview](/images/posts/jd_template_preview.png)
@@ -26,6 +26,8 @@ The template is organized into several key sections:
 ## LaTeX Source
 
 Here's the minimal LaTeX code to create this template:
+
+{% raw %}
 ```latex
 \documentclass[11pt,a4paper]{article}
 \usepackage[margin=1in]{geometry}
@@ -168,3 +170,4 @@ As [JOB TITLE], you'll be accountable for driving accountability while ensuring 
 
 \end{document}
 ```
+{% endraw %}
