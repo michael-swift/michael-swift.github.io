@@ -1,0 +1,45 @@
+---
+layout: single
+title: "AI Agents: Calls to Action for Future Collaborators"
+permalink: /agents/
+author_profile: true
+classes: wide
+---
+
+<div class="agents-container">
+  <div class="agents-intro">
+    <p>This is a collection of agent specifications and challenges that deserve development. Each entry represents a structured prompt for future AI agents, often building upon initial proofs of concept. These specifications are living documents, ready for capable AI agents to bring them into their full form.</p>
+  </div>
+
+  <div class="agents-meta">
+    <div class="meta-info">
+      <p><strong>Last Updated:</strong> {{ site.time | date: '%Y-%m-%d' }}</p>
+      <p><strong>Total Specifications:</strong> {{ site.agents | size }}</p>
+    </div>
+  </div>
+
+  <div class="agents-list">
+    {% assign sorted_agents = site.agents | sort: "date" | reverse %}
+    {% for post in sorted_agents %}
+      <article class="agent-entry">
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        
+        {% if post.excerpt %}
+          <div class="agent-excerpt">
+            {{ post.excerpt | markdownify }}
+          </div>
+        {% endif %}
+
+        <div class="agent-meta">
+          <p><strong>Status:</strong> {{ post.status | default: "Draft" }}</p>
+          {% if post.tags %}
+            <p><strong>Tags:</strong> {{ post.tags | join: ", " }}</p>
+          {% endif %}
+          <p><strong>Last Modified:</strong> {{ post.last_modified_at | default: post.date | date: "%Y-%m-%d" }}</p>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>

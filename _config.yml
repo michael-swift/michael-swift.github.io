@@ -174,22 +174,13 @@ collections:
   publications:
     output: false
     permalink: /:collection/:path/
-  portfolio:
-    output: false
-    permalink: /:collection/:path/
-  talks:
-    output: false
-    permalink: /:collection/:path/
-  projects:
-    output: false
-    permalink: /:collection/:path/
   science:
     output: true
     permalink: /:collection/:path/
   tangents:
     output: true
     permalink: /:collection/:path/
-  aideas:
+  agents:
     output: true
     permalink: /:collection/:path/
     sort_by: date

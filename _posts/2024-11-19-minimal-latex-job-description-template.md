@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Minimal LaTeX Job Description Template"
-date: 2024-11-20
+date: 2024-11-19
 categories: [latex, templates]
 tags: [latex, job-description, template, documentation]
 ---
