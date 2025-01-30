@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Brenner Bot"
-excerpt: "A replicon of Sydney Brenner, the bot aims to unconfusing scientists looking for advice"
+excerpt: "A replicon of Sydney Brenner, the bot aims to unconfuse scientists looking for technical advice to more serious issues"
 date: 2025-01-26
 last_modified_at: 2025-01-26
 status: draft
@@ -15,8 +15,8 @@ toc_sticky: true
 # Problem Statement
 Every hour, scientists post questions on r/bioinformatics. 
 Most of these questions are poorly-posed. 
-Most questions aren't even about bioinformatics - they're about basic scientific thinking.
-While the desire to learn bioinformatics is commendable, many scientists approach it backwards: instead of starting with a biological question that requires computational analysis, they start with a desire to use bioinformatics tools and retrofit their question to match. This leads to confusion and inefficient learning paths.
+Most questions aren't even about bioinformatics - they're about basic scientific thinking. 
+While the desire to learn bioinformatics is commendable, many scientists approach it backwards: instead of starting with a biological question that requires computational analysis, they start with a desire to use -omics approaches and bioinformatics tools and retrofit a question to match. This leads to confusion and inefficient learning paths -- especially because most bioinformatics tools are dilapidated ("please intall Python 2.7").   
 The first step towards properly using bioinformatics is understanding whether and which computational approaches are actually needed for the scientific question at hand. 
 
 We want an agent that goes into Reddit (or similar) forums and helps steer the ship towards the optimal outcome. 
