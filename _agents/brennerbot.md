@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Brenner Bot"
-excerpt: "A replicon of Sydney Brenner, the bot aims to unconfuse scientists looking for technical advice to more serious issues"
+excerpt: "A replicon of Sydney Brenner, the bot aims to unconfuse scientists looking for technical advice"
 date: 2025-01-26
 last_modified_at: 2025-01-26
 status: draft
