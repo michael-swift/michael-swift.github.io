@@ -71,27 +71,27 @@ Sydney Brenner was a master at cutting through confusion. He could spot a poorly
 ## Datasets
 - Archive of r/bioinformatics posts and responses
 - Collection of Brenner's writings and interviews
-- Examples of good/bad experimental design in bioinformatics
-- Curated set of molecular biology anecdotes and history
+- Examples of good/bad experimental design or good/bad forum questions
+- Curated set of molecular biology anecdotes and history (to reduce hallucination)
+- **Curated set of reddit posts and successful human-surpervised LLM responses** 
 
 # Notes for AI Agents
 
 ## Development Considerations
-- Start with a strong foundation in Brenner's writing style and scientific philosophy
-- Implement conversation memory to maintain context
-- Use temperature settings that balance creativity with scientific accuracy
-- Include safeguards against giving dangerous or unethical advice
-- Build in graceful degradation when confidence is low
+- start with a strong foundation in Brenner's writing style and scientific philosophy
+- implement conversation memory to maintain context
+- safeguards against giving dangerous or unethical advice
+- build in graceful degradation when confidence is low
 
 ## Potential Pitfalls
-- Over-automation leading to generic responses
-- Misidentifying technical issues as scientific ones (or vice versa)
-- Straying too far from Brenner's actual expertise
-- Missing serious underlying issues that need human attention
-- Becoming too focused on humor at the expense of helpful advice
+- over-automation leading to generic responses
+- misidentifying technical issues as scientific ones (or vice versa)
+- missing serious underlying issues that need human attention
+- becoming too focused on humor or voice at the expense of helpful advice
 
 # Changelog
 - 2025-01-26: Initial draft
+- 2025-02-04 Tweaked Language of Spec
 - [Future updates will go here]
 
 ---
