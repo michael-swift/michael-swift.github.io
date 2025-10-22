@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1218"/>
+      <stop offset="100%" stop-color="#111a24"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <g font-family="'JetBrains Mono','Fira Code','Cascadia Code',monospace" font-size="17" fill="rgba(168,240,200,0.14)">
+    <text x="28" y="72">@HD VN:1.6 SO:coordinate</text>
+    <text x="28" y="108">@SQ SN:chr1 LN:248956422</text>
+    <text x="28" y="144">@SQ SN:chr2 LN:242193529</text>
+    <text x="28" y="180">@PG ID:bwa PN:bwa VN:0.7.17-r1188 CL:bwa mem -t 8 hg38 reads.fq</text>
+    <text x="28" y="228">ERR194147.1  99  chr1  10067  60  100M   = 10167  200  </text>
+    <text x="28" y="264">ERR194147.1 147  chr1  10167  60  100M   = 10067 -200 </text>
+    <text x="28" y="300">ERR194147.2  83  chr2  20411  50  90M5I5M = 20620  214  </text>
+    <text x="28" y="336">ERR194147.2 163  chr2  20620  50  82M3D12M = 20411 -214 </text>
+    <text x="28" y="384">@CO platform: HiSeq2500  lane:4 flowcell:C0CGAACXX</text>
+    <text x="28" y="432">ERR194147.3  99  chr3  156772  42  76M1I23M  = 156902  153  </text>
+    <text x="28" y="468">ERR194147.3 147  chr3  156902  42  76M1I23M  = 156772 -153 </text>
+    <text x="28" y="516">@CO processed: swift@honeydew 2025-08-14</text>
+  </g>
+</svg>
