@@ -1,0 +1,103 @@
+1:"$Sreact.fragment"
+2:I[7555,[],""]
+3:I[1295,[],""]
+4:I[6874,["874","static/chunks/874-74901d351483b694.js","555","static/chunks/app/agents/%5Bslug%5D/page-8db4d85b1840aad1.js"],""]
+6:I[9665,[],"OutletBoundary"]
+9:I[9665,[],"ViewportBoundary"]
+b:I[9665,[],"MetadataBoundary"]
+d:I[6614,[],""]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/9922c51403c4b9d4.css","style"]
+0:{"P":null,"b":"PcEnHqsuihniq5vGOzF_K","p":"","c":["","agents","brennerbot"],"i":false,"f":[[["",{"children":["agents",{"children":[["slug","brennerbot","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9922c51403c4b9d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_f9e569 antialiased font-mono bg-background text-foreground","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-center justify-center min-h-screen p-4","children":[["$","h1",null,{"className":"text-4xl font-serif mb-4","children":"404"}],["$","h2",null,{"className":"text-2xl mb-6","children":"Page Not Found"}],["$","p",null,{"className":"mb-8 text-center","children":"The page you are looking for doesn't exist or has been moved."}],["$","$L4",null,{"href":"/","className":"px-6 py-3 border border-neutral-200 hover:bg-primary/10 transition-colors","children":"Return Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["agents",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","brennerbot","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5","$undefined",null,["$","$L6",null,{"children":["$L7","$L8",null]}]]}],{},null,false]},null,false]},null,false]},[["$","div","l",{"className":"flex items-center justify-center min-h-screen","children":["$","div",null,{"className":"animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"}]}],[],[]],false],["$","$1","h",{"children":[null,["$","$1","3oYKE77gQ0-8su9ivv46S",{"children":[["$","$L9",null,{"children":"$La"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$Lb",null,{"children":"$Lc"}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:T7bf,prose prose-lg max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:text-foreground prose-h1:text-3xl prose-h1:md:text-4xl prose-h1:mb-6 prose-h1:mt-8 prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:mb-4 prose-h2:mt-8 prose-h3:text-xl prose-h3:md:text-2xl prose-h3:mb-3 prose-h3:mt-6 prose-p:text-base prose-p:md:text-lg prose-p:leading-relaxed prose-p:mb-6 prose-p:font-serif prose-p:text-muted-foreground prose-strong:font-semibold prose-strong:text-foreground prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-ul:mb-6 prose-ul:space-y-2 prose-li:text-base prose-li:md:text-lg prose-li:font-serif prose-li:text-muted-foreground prose-ol:mb-6 prose-ol:space-y-2 prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-muted-foreground prose-code:bg-[#fdf6e3] prose-code:text-[#657b83] prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-mono prose-code:border prose-code:border-[#eee8d5] prose-pre:bg-[#fdf6e3] prose-pre:text-[#657b83] prose-pre:p-4 prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:border prose-pre:border-[#eee8d5] prose-pre:shadow-sm prose-pre:font-mono prose-pre:text-sm prose-pre:leading-relaxed [&_.hljs]:bg-transparent [&_.hljs]:text-inherit prose-img:rounded-lg prose-img:shadow-sm prose-img:mx-auto prose-figure:text-center prose-figcaption:text-sm prose-figcaption:text-muted-foreground prose-figcaption:mt-2 [&_.centered-image]:block [&_.centered-image]:mx-auto [&_.centered-image]:w-1/4 [&_.large-centered-image]:block [&_.large-centered-image]:mx-auto [&_.large-centered-image]:w-3/4 [&_.image-gallery]:flex [&_.image-gallery]:justify-center [&_.image-gallery]:flex-wrap [&_.image-gallery_figure]:m-2 [&_.image-gallery_figure]:w-1/4 [&_.centered-caption]:flex [&_.centered-caption]:flex-col [&_.centered-caption]:items-center [&_iframe]:mx-auto [&_iframe]:rounded-xl [&_iframe]:shadow-lgf:T1408,<h1>Problem Statement</h1>
+<p>Every hour, scientists post questions on r/bioinformatics.
+Most of these questions are poorly-posed.
+Most questions aren't even about bioinformatics - they're about basic scientific thinking.
+While the desire to learn bioinformatics is commendable, many scientists approach it backwards: instead of starting with a biological question that requires computational analysis, they start with a desire to use bioinformatics tools and retrofit their question to match. This leads to confusion and inefficient learning paths.
+The first step towards properly using bioinformatics is understanding whether and which computational approaches are actually needed for the scientific question at hand.</p>
+<p>We want an agent that goes into Reddit (or similar) forums and helps steer the ship towards the optimal outcome.</p>
+<h1>Key Requirements</h1>
+<ul>
+<li>Must capture Brenner's distinctive voice and wit while maintaining scientific rigor</li>
+<li>Should identify core scientific issues in posts (mostly unclear hypotheses or that potential responders have been given little to no valuable context to help)
+<ul>
+<li>is the broader scientific context clear?</li>
+<li>what are the hypotheses of the poster?</li>
+<li>does it seem like a bioinformatics expert has enough information to read the post and help them? is there a clear exposition of <strong>why they need help from strangers on r/bioinformatics</strong>?</li>
+<li>what were the expected results?</li>
+<li>if applicable: have they run any checks for self-consistency in the data (i.e. in silico controls)?</li>
+<li>have they done any amount of literature searching or using generally available resources?</li>
+</ul>
+</li>
+<li>Generate responses that make sure the scientist has elucidated why they are using bioinformatics, prioritize biological meaning over technical details of implementing certain tools</li>
+<li>Must maintain conversation history to avoid contradicting previous advice</li>
+<li>Should recognize when a question needs human intervention</li>
+<li>Should recognize if a post actually is well-posed and potentially not comment or give some Brenner-like quip or encouragement</li>
+</ul>
+<h1>Background</h1>
+<h2>Context</h2>
+<p>Sydney Brenner was a master at cutting through confusion. He could spot a poorly designed experiment from a mile away. And he'd tell you about it - with humor, with history, and always with helpful advice.</p>
+<h2>Similar Work</h2>
+<ul>
+<li>GPT-Agent Reddit Bots: Several examples of LLM-powered bots monitoring subreddits</li>
+<li>Historical Figure Impersonation: Projects like "Einstein Bot" for physics education</li>
+<li>Scientific Writing Assistants: Tools that help researchers clarify their methods</li>
+</ul>
+<h2>Key Challenges</h2>
+<ul>
+<li>Capturing Brenner's voice <strong>without caricature</strong></li>
+<li>Maintaining scientific accuracy</li>
+<li>Avoiding repetitive or formulaic responses</li>
+<li>Knowing when to defer to human experts or not comment at all</li>
+</ul>
+<h1>Success Criteria</h1>
+<ul>
+<li>[ ] Bot can maintain consistent Brenner-like persona across multiple interactions</li>
+<li>[ ] Responses consistently guide users toward better experimental design</li>
+<li>[ ] Users engage with bot's suggestions (measured by response rates)</li>
+<li>[ ] Community feedback indicates helpful scientific guidance</li>
+<li>[ ] No instances of harmful or misleading scientific advice</li>
+</ul>
+<h1>Resources</h1>
+<h2>Papers</h2>
+<ul>
+<li>Brenner's Nobel lecture: "Nature's Gift to Science"</li>
+<li>Brenner's collected letters and correspondence</li>
+<li>Key papers on C. elegans development (for authentic references)</li>
+<li>Literature on scientific mentorship and education (e.g. Uri Alon's communications)</li>
+</ul>
+<h2>Datasets</h2>
+<ul>
+<li>Archive of r/bioinformatics posts and responses</li>
+<li>Collection of Brenner's writings and interviews</li>
+<li>Examples of good/bad experimental design in bioinformatics</li>
+<li>Curated set of molecular biology anecdotes and history</li>
+</ul>
+<h1>Notes for AI Agents</h1>
+<h2>Development Considerations</h2>
+<ul>
+<li>Start with a strong foundation in Brenner's writing style and scientific philosophy</li>
+<li>Implement conversation memory to maintain context</li>
+<li>Use temperature settings that balance creativity with scientific accuracy</li>
+<li>Include safeguards against giving dangerous or unethical advice</li>
+<li>Build in graceful degradation when confidence is low</li>
+</ul>
+<h2>Potential Pitfalls</h2>
+<ul>
+<li>Over-automation leading to generic responses</li>
+<li>Misidentifying technical issues as scientific ones (or vice versa)</li>
+<li>Straying too far from Brenner's actual expertise</li>
+<li>Missing serious underlying issues that need human attention</li>
+<li>Becoming too focused on humor at the expense of helpful advice</li>
+</ul>
+<h1>Changelog</h1>
+<ul>
+<li>2025-01-26: Initial draft</li>
+<li>[Future updates will go here]</li>
+</ul>
+<hr>
+<p><em>Note: This is a living document. Future AI agents are encouraged to update and improve it based on implementation experience and community feedback.</em></p>5:["$","div",null,{"className":"min-h-screen bg-background","children":["$","div",null,{"className":"max-w-4xl mx-auto px-6 py-12","children":[["$","$L4",null,{"href":"/agents","className":"inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-8 transition-colors","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-left","aria-hidden":"true","children":[["$","path","1l729n",{"d":"m12 19-7-7 7-7"}],["$","path","x3x0zl",{"d":"M19 12H5"}],"$undefined"]}],"Back to agents"]}],["$","header",null,{"className":"mb-8","children":[["$","h1",null,{"className":"text-4xl md:text-5xl font-serif font-bold leading-tight mb-4","children":"Brenner Bot"}],["$","p",null,{"className":"text-xl text-muted-foreground leading-relaxed","children":"A replicon of Sydney Brenner, the bot aims to unconfusing scientists looking for advice"}]]}],["$","article",null,{"className":"$e","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$f"}}]}],["$","footer",null,{"className":"mt-12 pt-8 border-t"}]]}]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+7:null
+8:null
+c:[["$","title","0",{"children":"Brenner Bot | Michael Swift"}],["$","meta","1",{"name":"description","content":"A replicon of Sydney Brenner, the bot aims to unconfusing scientists looking for advice"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"128x128"}]]
